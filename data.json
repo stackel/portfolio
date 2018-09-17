@@ -1,6 +1,20 @@
 {
   "title":"Erik Stackelberg",
   "subtitle": "is creating for the web",
+  "contact": [
+    {
+      "name": "Github",
+      "link": "https://github.com/stackel/"
+    },
+    {
+      "name": "LinkedIn",
+      "link": "https://github.com/stackel/"
+    },
+    {
+      "name": "E-Mail",
+      "link": "mailto:erikstackelberg@gmail.com"
+    }
+  ],
   "projects": [
     {
       "name":"Cocktail Hour",
