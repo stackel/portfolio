@@ -1,3 +1,26 @@
 {
-  "name":"Static Web Boilerplate!"
+  "title":"Erik Stackelberg",
+  "subtitle": "is creating for the web",
+  "projects": [
+    {
+      "name":"Cocktail Hour",
+      "link": "https://stackel.github.io/cocktail-hour-web/",
+      "description": "PWA for managing your drink recipes."
+    },
+    {
+      "name":"Location Heatmap",
+      "link": "https://stackel.github.io/location-heatmap/",
+      "description": "Visualise your google location data."
+    },
+    {
+      "name":"Static Web Boilerplate",
+      "link": "https://github.com/stackel/static-web-boilerplate",
+      "description": "Kickstart your static website with templating and deployment."
+    },
+    {
+      "name":"Witalisson",
+      "link": "https://stackel.github.io/witalisson/",
+      "description": "Branding, design and development for a local carpenting business."
+    }
+  ]
 }
