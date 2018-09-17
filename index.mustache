@@ -8,12 +8,12 @@
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css" />
 </head>
 
-<body>
-  <h1 class="athelas f-headline">{{title}}</h1>
-  <h2 class="athelas f-subheadline">{{subtitle}}</h2>
+<body class="pa5 bg-dark-gray">
+  <h1 class="athelas f-headline near-white mb0 pb0">{{title}}</h1>
+  <h2 class="athelas f1 near-white mt2 pt0">{{subtitle}}</h2>
   {{#projects}}
-    <a href={{link}}>{{name}}</a>
-    <p>{{description}}</p>
+    <a class="sans-serif near-white f3" aria-label={{name}} href={{link}}>{{name}}</a>
+    <p class="athelas near-white f4 mb4">{{description}}</p>
   {{/projects}}
 </body>
 
