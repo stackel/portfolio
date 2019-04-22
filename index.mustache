@@ -19,18 +19,18 @@
   <link rel="stylesheet" href="tachyons-extended.css">
 </head>
 
-<body class="pa4 pa5-ns bg-gradient">
-  <h1 class="sans-serif fw5 f1 f-subheadline-ns near-white mb0">{{title}}</h1>
-  <h2 class="sans-serif fw3 f2 f1-ns near-white mt2">{{subtitle}}</h2>
+<body class="pa4 pa5-ns">
+  <h1 class="sans-serif fw5 f1 f-subheadline-ns black mb0">{{title}}</h1>
+  <h2 class="sans-serif fw3 f2 f1-ns black mt2">{{subtitle}}</h2>
   <section class="mb4 mb5-ns">
     {{#contact}}
-      <a class="sans-serif near-white f4 f3-ns mr2 mr4-ns" aria-label={{name}} href={{link}}>{{name}}</a>
+      <a class="sans-serif black f4 f3-ns mr2 mr4-ns" aria-label={{name}} href={{link}}>{{name}}</a>
     {{/contact}}
   </section>
   <section>
     {{#projects}}
-      <a class="code near-white f4 f3-ns" aria-label={{name}} href={{link}}>{{name}}</a>
-      <p class="code near-white f5 mb4">{{description}}</p>
+      <a class="code black f4 f3-ns" aria-label={{name}} href={{link}}>{{name}}</a>
+      <p class="code black f5 mb4">{{description}}</p>
     {{/projects}}
   </section>
 </body>
